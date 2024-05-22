@@ -20,6 +20,7 @@ function App() {
 }
 
 function MainApp() {
+  const name = "awais";
   const networkAtomCount = useRecoilValue(networkAtom);
   const jobsAtomCount = useRecoilValue(jobsAtom);
   const notificationsAtomCount = useRecoilValue(notificationsAtom);
